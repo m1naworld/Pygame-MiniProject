@@ -66,7 +66,7 @@ while start == False:
 
     screen.blit(background, (0, 0))
     font = pygame.font.Font("DXWRbtStd-B.otf", 35)
-    text = font.render("민아의 도넛 먹기 게임!", True, (255, 255, 0))  # 이미지화 된 텍스트
+    text = font.render("Doughnut Eating Game!", True, (255, 255, 0))  # 이미지화 된 텍스트
     screen.blit(text, (90, size[1] / 2 - 200))
 
     font = pygame.font.Font("THEjunggt160.otf", 20)
