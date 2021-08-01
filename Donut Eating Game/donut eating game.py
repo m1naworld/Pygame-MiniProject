@@ -105,9 +105,9 @@ space_go = False
 donut_list = []
 obstacle_list = []
 
-# 점수
+# 점수 초깃값
 eat = 0
-# 캐릭터 목숨
+# 캐릭터 목숨 초깃값
 life = 3
 
 
@@ -217,9 +217,10 @@ while running:
         death.reverse()
         for o in death:
             del obstacle_list[o]
-
+            
+    # 방해물 도넛 나오는 확률 업그레이드
     elif 10 < eat:
-        if random.randint(1, 300) > 280:  # 방해물 도넛 나오는 확률 업그레이드
+        if random.randint(1, 300) > 280: 
             obstacle = Character(40, 40, 3)
             obstacle.put_img("감점 도넛.png")
             obstacle.change_size()
