@@ -53,7 +53,7 @@ class Character:
 charater = Character(60, 60, 5)
 charater.put_img("character1.png")
 charater.change_size()
-charater.x = round(size[0] / 2 - charater.height / 2)  # 아이미지 크기 만큼 보정
+charater.x = round(size[0] / 2 - charater.height / 2)  # 이미지 크기 만큼 보정
 charater.y = size[1] - charater.height - 15  # 이미지 크기 만큼 보정해줘야함
 
 # 게임 시작 대기 화면
