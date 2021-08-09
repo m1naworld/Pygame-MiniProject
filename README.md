@@ -1,4 +1,4 @@
-# Python-MiniProject
+# Pygame-MiniProject
 
 ### - Doughnut Eating Game
 
